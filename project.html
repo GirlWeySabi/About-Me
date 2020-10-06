@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROJECT</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="project.css" />
+  </head>
+  <body class="main">
+    <header class="header">
+      <div class="logo">
+        <img src="./Images/smallHomefrontImg.png" alt="" />
+      </div>
+      <nav class="navbar" id="navbar">
+        <div class="nav-link-wrapper"><a href="#home">Home</a></div>
+        <div class="nav-link-wrapper"><a href="#aboutMe">About Me</a></div>
+        <div class="nav-link-wrapper"><a href="#expertise">Expertise</a></div>
+        <div class="nav-link-wrapper"><a href="#contact">Contact</a></div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="home" class="Section1">
+        <div class="LHS1">
+          <p class="aboutHomefront">
+            HomeFront StartUp is an ICT oriented initiative for accomodating and
+            supporting young entrepreneurs. It is a mind-set reengineering
+            program for youths to develop innovative and entrepreneural skills.
+          </p>
+          <h6 class="hello">Hello</h6>
+          <h1 class="myName">I’m Christiana Okere</h1>
+          <p class="briefBio">
+            A certified full-stack developer with 3 years of experience
+            designing and building web and mobile applications
+          </p>
+          <button onclick="window.location.href='#contact'" class="contactMe" type="button">Contact Me</button>
+        </div>
+
+        <div class="ImageRHS1">
+          <img src="./Images/C.OKERE_BIG.jpg" alt="Christy's Pic" />
+        </div>
+      </div>
+
+      <div class="Section2">
+        <h1 id="aboutMe" class="aboutHeading">About Me</h1>
+        <div class="Sec2Cont">
+          <div class="ImageLHS2">
+            <img
+              src="./Images/C.Okere_small.JPG"
+              alt="Christy's Pic"
+              height="310px"
+            />
+          </div>
+          <div class="RHS2">
+            <div class="wholePara">
+              <p class="para">
+                I am not a graduate of computer science or anything close to
+                that. So you may wonder how I came to be a full-stack developer!
+                Well, it all began from a place of curiosity. I have always had
+                keen eyes for design and I’ve always been drawn to websites with
+                interactive features. I was often fascinated about how the
+                internet and all its components work. Then I discovered that
+                websites and webpages did not magically appear on the internet,
+                they were built by actual people like myself! So, I decided to
+                learn how to build this magical thing called a website!
+              </p>
+
+              <p class="para">
+                This decision marked the beginning of my journey to becoming a
+                full-stack developer. Today, I design and build websites and
+                mobile apps that solve problems and create opportunities for
+                people in the society. I take pride in my work and I urge you to
+                explore my <a href="#" class="portfolio"> portfolio</a>
+              </p>
+            </div>
+            <button class="readMore" type="button">Read More</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="expertise" class="Section3">
+        <h1 class="expHeading">Expertise</h1>
+        <div class="sec3Cont">
+          <div class="uiuxBox">
+            <div class="uiuxImage">
+              <img src="./Images/UIUX.png" alt="uiuxIcon" />
+            </div>
+            <h1 class="Heading">UI/UX Design</h1>
+            <p class="uiuxText">
+              I design really cool stuff, but i don't stop there! I also take
+              the time to help my clients understand the reason for using
+              specific concepts in their project.
+            </p>
+          </div>
+
+          <div class="frontEndBox">
+            <div class="frontEndImage">
+              <img src="./Images/frontEnd.png" alt="frontEndIcon" />
+            </div>
+            <h1 class="Heading">Front End</h1>
+            <p class="frontEndText">
+              While build the frontend of any project, I maintain the dimensions
+              and details as specified in UI/UX design. I use discretion only
+              where absolutely necessary.
+            </p>
+          </div>
+
+          <div class="backendBox">
+            <div class="backEndImage">
+              <img src="./Images/backEnd.png" alt="backEndIcon" />
+            </div>
+            <h1 class="Heading">Back End</h1>
+            <p class="backEndText">
+              Backend is like the icing on the cake. However, in this case, it's
+              as important as the cake! So I take my time to build it and ensure
+              that it functions flawlessly!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="Section4">
+      <h1 id="contact" class="contactMeHeading">Contact Me</h1>
+      <div class="formContainer">
+        <form action="post" class="form">
+          <p class="formPara">Feel free to contact me</p>
+
+          <input
+            class="block"
+            type="text"
+            name="yourName"
+            id="yourName"
+            placeholder="Your Name"
+          />
+          <input
+            class="block"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email Address"
+          />
+          <input
+            class="block"
+            type="text"
+            name="message"
+            id="message"
+            placeholder="Your Message here..."
+          />
+
+          <button class="sendMsg" type="submit" onclick="submitInfo()">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+      <div class="s-media">
+        <ul class="ulIcon-txt">
+          <li class="LiIcon-txt">
+            <div class="align">
+              <img src="./Images/twitter.png" alt="" class="icons" />
+              <p class="icon-name">Twitter</p>
+            </div>
+          </li>
+          <li class="LiIcon-txt">
+            <div class="align">
+              <img src="./Images/fbook.png" alt="" class="icons" />
+              <p class="icon-name">Facebook</p>
+            </div>
+          </li>
+          <li class="LiIcon-txt">
+            <div class="align">
+              <img src="./Images/insta.png" alt="" class="icons" />
+              <p class="icon-name">Instagram</p>
+            </div>
+          </li>
+          <li class="LiIcon-txt">
+            <div class="align">
+              <img src="./Images/github.png" alt="" class="icons" />
+              <p class="icon-name">Github</p>
+            </div>
+          </li>
+          <li class="LiIcon-txt">
+            <div class="align">
+              <img src="./Images/behance.png" alt="" class="icons" />
+              <p class="icon-name">Behance</p>
+            </div>
+          </li>
+          <li class="LiIcon-txt">
+            <div class="align">
+              <img src="./Images/phone.png" alt="" class="icons" />
+              <p class="icon-name">Phone</p>
+            </div>
+          </li>
+          <li class="LiIcon-txt">
+            <div class="align">
+              <img src="./Images/linkedin.png" alt="" class="icons" />
+              <p class="icon-name">LinkedIn</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      <div class="row1">
+        <div class="footerNav"><a href="#home">Home</a></div>
+        <div class="footerNav"><a href="#aboutMe">About Me</a></div>
+        <div class="footerNav"><a href="#expertise">Expertise</a></div>
+        <div class="footerNav"><a href="#contact">Contact</a></div>
+      </div>
+      <hr />
+      <div class="row2">
+        <p class="lastWords">
+          My first portfolio design. #90daysTechpreneurYola2020. All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="project.js"></script>
+  </body>
+</html>
